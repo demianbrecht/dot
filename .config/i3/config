@@ -188,4 +188,4 @@ gaps inner 5
 ## LOCK SCREEN
 
 bindsym $mod+Ctrl+l exec ~/.config/i3/lock.sh
-exec conky --daemonize --pause=5 -c /home/demian/.config/conky/config
+exec conky --daemonize --pause=3 -c /home/demian/.config/conky/config

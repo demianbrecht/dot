@@ -1,0 +1,8 @@
+[user]
+	name = Demian Brecht
+	email = demianbrecht@gmail.com
+	signingkey = 14E4E96742F22903
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true

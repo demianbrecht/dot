@@ -37,11 +37,11 @@ au BufRead,BufNewFile *.rfc set filetype=rfc
 autocmd Filetype rfc setlocal textwidth=72 softtabstop=3 tabstop=3 shiftwidth=3
 
 " yaml
-autocmd Filetype yaml setlocal expandtab textwidth=79 softtabstop=2 tabstop=2 shiftwidth=2
+autocmd Filetype yaml setlocal expandtab textwidth=99 softtabstop=2 tabstop=2 shiftwidth=2
 
 " python
 set expandtab
-autocmd Filetype python,rst setlocal expandtab textwidth=79 softtabstop=4
+autocmd Filetype python,rst setlocal expandtab textwidth=119 softtabstop=4
 "autocmd BufWritePost *.py call Flake8()
 
 " markdown

@@ -52,5 +52,9 @@ autocmd Filetype markdown setlocal textwidth=80
 au BufRead,BufNewFile *.rst set filetype=rst
 autocmd Filetype rst setlocal softtabstop=3 tabstop=3 shiftwidth=3execute pathogen#infect()
 
+" remove the bgcolors for iceberg
 hi Normal ctermbg=NONE
 hi EndOfBuffer ctermbg=NONE
+
+" ctags
+nnoremap <silent> <leader>tt :!ctags -R .<cr>

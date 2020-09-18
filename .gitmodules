@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/vim-afterglow"]
 	path = .vim/bundle/vim-afterglow
 	url = https://github.com/danilo-augusto/vim-afterglow
+[submodule ".vim/bundle/iceberg"]
+	path = .vim/bundle/iceberg
+	url = git@github.com:cocopon/iceberg.vim.git

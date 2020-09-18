@@ -18,3 +18,4 @@ fi
 
 # setup vi mode. super handy with a the mech mini i'm running with now
 set -o vi
+alias tmux="tmux -2"

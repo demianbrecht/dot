@@ -21,7 +21,7 @@ set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 " general
 set background=dark
-colorscheme afterglow
+colorscheme iceberg
 set tabstop=4
 set shiftwidth=4
 set showmatch
@@ -51,3 +51,6 @@ autocmd Filetype markdown setlocal textwidth=80
 " rst
 au BufRead,BufNewFile *.rst set filetype=rst
 autocmd Filetype rst setlocal softtabstop=3 tabstop=3 shiftwidth=3execute pathogen#infect()
+
+hi Normal ctermbg=NONE
+hi EndOfBuffer ctermbg=NONE

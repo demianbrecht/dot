@@ -7,3 +7,5 @@ xterm*renderFont: true
 xterm*translations: #override \n\
 	Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
 	Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+xterm*selectToClipboard: true
+xterm*disallowedWindowOps: 20,21,SetXProp

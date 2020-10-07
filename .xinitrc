@@ -3,7 +3,7 @@
 xrdb ~/.Xresources
 
 if [ -f /usr/bin/feh ]; then
-    feh --bg-scale ~/images/wallpaper/158/2560x1600.jpg
+    feh --bg-scale ~/images/wallpaper/cyberpunk.jpg;
 fi
 
 if [ -f /usr/bin/picom ]; then

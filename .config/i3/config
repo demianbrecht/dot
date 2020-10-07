@@ -189,3 +189,4 @@ gaps inner 10
 
 bindsym $mod+Ctrl+l exec ~/.config/i3/lock.sh
 exec conky --daemonize --pause=3 -c /home/demian/.config/conky/config
+exec_always --no-startup-id ~/.screenlayout/detect.sh
